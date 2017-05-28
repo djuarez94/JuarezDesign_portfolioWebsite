@@ -28,6 +28,12 @@
 		<div class="parallaxWeb">
 
 		</div>
+		<div class="work">
+			<h1>My Work</h1>
+			<div class="gallery">
+				<img src="img/positivequotemachine_ss-u75197-fr.jpg">
+			</div>
+		</div>
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>

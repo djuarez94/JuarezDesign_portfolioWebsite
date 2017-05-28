@@ -19,14 +19,27 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="webDevelopment.php">Web Development</a></li>
- 					   <li><a href="visualDesign.php">Visual Design</a></li>
+					   <li class="active"><a href="webDevelopment.php">Web Development</a></li>
+					   <li><a href="visualDesign.php">Visual Design</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-		<div>
-			<img class="homeBG" src="img/BG_1.jpg">
+		<div class="parallaxDesign">
+
+		</div>
+		<div class="work">
+			<h1 class="text-center">My Work</h1>
+			<div class="gallery">
+				<img src="img/DES230_DavidJuare_Wk7_StillLife_new.jpg">
+				<img src="img/DES231_DJuarez_ExeSkullPainting_Wk04_R1_new.jpg">
+				<img src="img/DES231_DJuarez_PortaitPainting_Wk06-1_new.jpg">
+				<img src="img/DES231_DJuarez_Movie Poster_new.jpg">
+				<img src="img/robotBody copy_new.png">
+				<img src="img/robotHead_new.png">
+				<img src="img/cookCheck_Logo.png">
+				<img src="img/natureGoSip_Logo.png">
+			</div>
 		</div>
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
