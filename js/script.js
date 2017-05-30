@@ -21,6 +21,7 @@ function scrollContact () {
 }
 
 $("#about").click(scrollMe);
+$(".downArrow").click(scrollMe);
 $("#work").click(scrollWork);
 $("#contact").click(scrollContact);
 
@@ -72,6 +73,27 @@ $('.fa-arrow-circle-up').fadeOut(duration);
 
 });
 
+/*-------------------------------------
+| Down Arrow Animation
+-------------------------------------*/
+
+	function showDownArrow () {
+		$('.downArrow').animate({opacity: '0'},1000);
+	}
+	showDownArrow(arrowAnimate);
+
+	function arrowAnimate() {
+	$(".downArrow").animate({
+    opacity: 0,
+    top: "10px"
+}, 1e3, function () {
+    $(".downArrow").css({
+        top: '-40px',
+        opacity: .8
+    }), arrowAnimate()
+})
+}
+arrowAnimate();
 
 
 $('.fa-arrow-circle-up').click(function(event) {

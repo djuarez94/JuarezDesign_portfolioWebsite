@@ -33,8 +33,9 @@
 		</div>
 		<div class="parallaxDesign">
 			<h1 class="star">Web Development</h1>
+			<a href="#aboutMe"><img class="downArrow" src="img/workIcon.png"></a>
 		</div>
-		<div class="aboutMe">
+		<div class="aboutMe" id="aboutMe">
 			<div class="me">
 				<img class="star" src="img/myPhoto.jpg" width="200px">
 				<h2>David Juarez</h2>
@@ -46,24 +47,36 @@
 		</div>
 		<div class="work">
 			<h1 id="myWork" class="text-center">My Work</h1>
-			<div id="columns">
-				<figure class="star">
+			<div id="columnsWeb">
+				<figure  class="star">
 					<img src="img/PQM_homePG.jpg">
 					<h3>Positive Quote Machine</h3>
 					<figcaption>Languages used: HTML, CSS, Javascript, jQuery</figcaption>
 					<a href="https://djuarez94.github.io/randomQuoteMachine/" target="_blank"><p class="siteButtons">View Project</p></a>
 				</figure>
-				<figure class="star">
+				<figure  class="star">
 					<img src="img/SAR_homePG.png">
 					<h3>Self Approved Records</h3>
-					<figcaption>Languages used: HTML, CSS, Javascript, jQuery, Bootstrap, PHP</figcaption>
+					<figcaption>Languages used: HTML, CSS, Javascript, jQuery, Bootstrap, PHP, WordPress</figcaption>
 					<a href="http://selfapprovedrecords.com/" target="_blank"><p class="siteButtons">View Project</p></a>
 				</figure>
-				<figure class="star">
+				<figure  class="star">
 					<img src="img/PASS_homePG.png">
 					<h3>Pepe's Auto Shop Solutions</h3>
 					<figcaption>Languages used: HTML, CSS, Javascript, jQuery, Bootstrap, PHP</figcaption>
 					<a href="https://shrouded-retreat-99111.herokuapp.com/" target="_blank"><p class="siteButtons">View Project</p></a>
+				</figure>
+				<figure  class="star">
+					<img src="img/wikiePediaSearch.png">
+					<h3>WikiPedia Search</h3>
+					<figcaption>Languages used: HTML, CSS, Javascript, jQuery, Bootstrap</figcaption>
+					<a href="https://djuarez94.github.io/wikipediaViewer/" target="_blank"><p class="siteButtons">View Project</p></a>
+				</figure>
+				<figure  class="star">
+					<img src="img/cookCheck.png">
+					<h3>Cook Check Mobile App</h3>
+					<figcaption>Languages used: HTML, CSS, Javascript, jQuery, Bootstrap, PHP <span class="danger">Still under development.</span></figcaption>
+					<a href="https://gentle-tor-72415.herokuapp.com/index.php" target="_blank"><p class="siteButtons">View Project</p></a>
 				</figure>
 			</div>
 		</div>

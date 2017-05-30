@@ -33,6 +33,7 @@
 		</div>
 		<div class="parallaxDesign">
 			<h1 class="star">Visual Design</h1>
+			<a href="#aboutMe"><img class="downArrow" src="img/workIcon.png"></a>
 		</div>
 		<div class="aboutMe">
 			<div class="me">
