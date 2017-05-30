@@ -30,7 +30,7 @@
 		</div>
 		<div class="work">
 			<h1 class="text-center">My Work</h1>
-			<div class="gallery">
+			<!-- <div class="gallery">
 				<img src="img/DES230_DavidJuare_Wk7_StillLife_new.jpg">
 				<img src="img/DES231_DJuarez_ExeSkullPainting_Wk04_R1_new.jpg">
 				<img src="img/DES231_DJuarez_PortaitPainting_Wk06-1_new.jpg">
@@ -39,6 +39,57 @@
 				<img src="img/robotHead_new.png">
 				<img src="img/cookCheck_Logo.png">
 				<img src="img/natureGoSip_Logo.png">
+			</div> -->
+
+
+			<div id="columns">
+				<figure>
+					<img style="width: 235px" src="img/DES230_DavidJuare_Wk7_StillLife_new.jpg">
+					<h3>Digital Painting</h3>
+					<figcaption>Created in Photoshop with softbrush.</figcaption>
+				</figure>
+
+				<figure>
+					<img style="width: 235px" src="img/DES231_DJuarez_ExeSkullPainting_Wk04_R1_new.jpg">
+					<h3>Digital Painting</h3>
+					<figcaption>Created in Photoshop with softbrush.<figcaption>
+				</figure>
+
+				<figure>
+					<img style="width: 235px" src="img/DES231_DJuarez_PortaitPainting_small.png">
+					<h3>Digital Painting</h3>
+					<figcaption>Created in Photoshop with softbrush.</figcaption>
+				</figure>
+
+				<figure>
+					<img style="width: 235px" src="img/DES231_DJuarez_Movie Poster_new.jpg">
+					<h3>Poster Design</h3>
+					<figcaption>Created in Photoshop.</figcaption>
+				</figure>
+
+				<figure>
+					<img style="width: 235px" src="img/robotBody copy_new.png">
+					<h3>Vector Illustration</h3>
+					<figcaption>Created in Illustrator.</figcaption>
+				</figure>
+
+				<figure>
+					<img style="width: 235px" src="img/robotHead_new.png">
+					<h3>Vector Illustration</h3>
+					<figcaption>Created in Illustrator.</figcaption>
+				</figure>
+
+				<figure>
+					<img style="width: 235px" src="img/cookCheck_Logo.png">
+					<h3>Logo Design</h3>
+					<figcaption>Created in Illustrator.</figcaption>
+				</figure>
+
+				<figure>
+					<img style="width: 235px" src="img/natureGoSip_Logo.png">
+					<h3>Logo Design</h3>
+					<figcaption>Created in Illustrator.</figcaption>
+				</figure>
 			</div>
 		</div>
 	</body>
