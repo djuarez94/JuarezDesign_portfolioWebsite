@@ -10,6 +10,9 @@
 		<div class="logoHeader">
 			<img src="img/juarezDesign_Logo.png">
 		</div>
+		<div class="text-center" id="greeting">
+			<h2>Where Design </br> and Development meet!</h2>
+		</div>
 		<div class="titles">
 			<a href="webDevelopment.php"><img src="img/developmentIcon.png"></a>
 			<a href="visualDesign.php"><img src="img/designIcon.png"></a>
@@ -17,5 +20,6 @@
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
+	<!-- <script src="js/script.js"></script> -->
+	<script src="js/scripts.js"></script>
 </html>
