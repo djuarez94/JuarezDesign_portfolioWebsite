@@ -9,12 +9,30 @@
 }
 
 .logoHeader img {
+	padding-top: 8px;
+}
+
+.logoHeader2 img {
 	padding-top: .7%;
 }
 
 .titles {
 	position: relative;
 	bottom: 8%;
+}
+
+.titlesDesktop {
+	position: relative;
+	bottom: 8%;
+	display: none;
+}
+
+.titlesDesktop img {
+	display: block;
+	margin: auto;
+	border-radius: 100%;
+	padding: 10px;
+	margin-top: 2.5em;
 }
 
 .titles img {
@@ -34,8 +52,19 @@
 }
 
 @media only screen and (min-width: 768px) {
+   /*For Desktop*/
 	.greeting h2{
 		font-size: 60px;
+	}
+
+	.titlesDesktop {
+		position: relative;
+		bottom: 8%;
+		display: block;
+	}
+
+	.titles img{
+		display: none;
 	}
 }
 

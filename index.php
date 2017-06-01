@@ -18,6 +18,10 @@
 			<a href="webDevelopment.php"><img src="img/developmentIcon.png"></a>
 			<a href="visualDesign.php"><img src="img/designIcon.png"></a>
 		</div>
+		<div class="titlesDesktop">
+			<a href="webDevelopment.php"><img src="img/DevelopmentIcon_Desktop.png"></a>
+			<a href="visualDesign.php"><img src="img/designIcon_Desktop.png"></a>
+		</div>
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
