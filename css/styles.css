@@ -77,11 +77,10 @@ html, body{
 
 .parallaxWeb {
    /* The image used */
-   background-image: url("../img/webDev_BG.png");
+   background-image: url("../img/webDev_BG_Mobile.png");
    opacity: 1;
 
    height: 100%;
-   width: 100%;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
@@ -400,6 +399,7 @@ div#columnsWeb small a {
   div#columnsWeb:hover figure:not(:hover) {
   	opacity: 0.6;
   }
+
 }
 
 .navbar {
@@ -486,6 +486,10 @@ h1 {
 	.contactQuote {
 		padding-left: 15%;
 		padding-right: 15%;
+	}
+
+	.contactQuote strong {
+		color: #ed7700;
 	}
 
 	.contact {
