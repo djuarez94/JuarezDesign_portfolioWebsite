@@ -176,6 +176,11 @@ if (isset($_POST['name']))
 
 			</div>
 		</div>
+		<?php if (!empty($feedback)) : ?>
+			<div class="alert alert-info">
+				<?php echo $feedback; ?>
+			</div>
+		<?php endif; ?>
 		<div class="contact" id="contactMe">
 			<h1 class="text-center">Contact me</h1>
 			<form method="post" action="visualDesign.php#contactMe" id="contact" class="form-horizontal  text-left">
