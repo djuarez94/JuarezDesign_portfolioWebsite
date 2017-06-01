@@ -11,7 +11,7 @@
 			<img src="img/juarezDesign_Logo.png">
 		</div>
 		<div class="text-center greeting" id="greeting">
-			<h2>Where Design </br> and Development meet!</h2>
+			<h2>Where Design </br> and Development meet</h2>
 		</div>
 		<div class="titles">
 			<a href="webDevelopment.php"><img src="img/developmentIcon.png"></a>
