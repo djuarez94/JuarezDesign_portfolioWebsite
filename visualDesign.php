@@ -72,7 +72,24 @@ if (isset($_POST['name']))
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
-		<?php include 'nav.php' ?>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				   <span class="icon-bar"></span>
+				   <span class="icon-bar"></span>
+				   <span class="icon-bar"></span>
+				 </button>
+				 <a class="navbar-brand" href="index.php"><img style="width:50px;" src="img/juarezDesign_Logo.png" alt="Site Logo"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+					   <li class="active"><a href="visualDesign.php">Visual Design</a></li>
+					   <li><a href="webDevelopment.php">Web Development</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<div class="text-center secondNav">
 		      <a id="about" href="#aboutMe">About Me</a>
 	          <a id="work" href="#myWork">My Work</a>
@@ -144,7 +161,7 @@ if (isset($_POST['name']))
 				</figure>
 			</div>
 		</div>
-		<div class="parallaxDesign">
+		<div class="parallaxContact">
 			<div class="contactQuote">
 				<h2 class="star">"Any kind of innovation requires the ability to <strong>collaborate</strong> and <strong>share</strong> ideas with other people, and to sit down and <strong>talk</strong> with customers and get their feedback and <strong>understand</strong> their needs"</h2>
 				<p class="star"><i>- Bill Gates</i></p>
