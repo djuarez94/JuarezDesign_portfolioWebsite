@@ -93,7 +93,7 @@ html, body{
 
 .parallaxDesign {
    /* The image used */
-   background-image: url("../img/bg_image1_2.png");
+   background-image: url("../img/bg_image1.jpg");
    opacity: 1;
 
    height: 100%;
