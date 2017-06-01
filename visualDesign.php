@@ -52,7 +52,7 @@ if (isset($_POST['name']))
 		-------------------------------------*/
 		if (!mail($to, $subject, $body, $headers))
 		{
-			$feedback = 'I apologize! We were unable to send from our hosted server. Please contact me directly <a href="mailto:davidjuarez1411@gmail.com"><p>here</p></a>';
+			$feedback = 'I apologize! We were unable to send from our hosted server. Please contact me directly <a href="mailto:davidjuarez1411@gmail.com">here</a>';
 		}
 		else
 		{
@@ -72,24 +72,7 @@ if (isset($_POST['name']))
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
-				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				   <span class="icon-bar"></span>
-				   <span class="icon-bar"></span>
-				   <span class="icon-bar"></span>
-				 </button>
-				 <a class="navbar-brand" href="index.php"><img style="width:50px;" src="img/juarezDesign_Logo.png" alt="Site Logo"></a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
-					   <li><a href="webDevelopment.php">Web Development</a></li>
-					   <li class="active"><a href="visualDesign.php">Visual Design</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+		<?php include 'nav.php' ?>
 		<div class="text-center secondNav">
 		      <a id="about" href="#aboutMe">About Me</a>
 	          <a id="work" href="#myWork">My Work</a>
@@ -195,23 +178,7 @@ if (isset($_POST['name']))
 				<input id="submitButton" type="submit" value="Submit" name="submit">
 			</form>
 		</div>
-		<footer>
-			<img src="img/juarezDesign_Logo.png">
-			<div class="email">
-				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
-				<a href="#"><p>davidjuarez1411@gmail.com</p></a>
-			</div>
-			<div class="number">
-				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
-				<a href="tel:1-626-257-8499"><p>626-257-8499</p></a>
-			</div>
-			<div class="text-center socialLinks">
-				<a href="https://www.linkedin.com/in/david-juarez-915270117" target="_blank" ><i id='socialIcons' class="fa fa-linkedin-square" style="color:#fff; font-size: 3em;"></i></a>
-				<a href="https://www.freecodecamp.com/djuarez94" target="_blank" ><i id='socialIcons' class="fa fa-free-code-camp" aria-hidden="true" style="padding-right: .25em; padding-left: .25em; color:#fff; font-size: 3em;"></i></a>
-				<a href="https://github.com/djuarez94" target="_blank" ><i id='socialIcons' class="fa fa-github-square" style="font-size:3em; color:#fff;"></i></a>
-			</div>
-			<p class="copyright">&copy; <?php echo date('Y'); ?> Juarez Design.<br>All rights reserved.</p>
-		</footer>
+		<?php include 'footer.php' ?>
 		<a href='#' class="back-to-top" style="display: inline;">
 			<i class="fa fa-arrow-circle-up"></i>
 		</a>
