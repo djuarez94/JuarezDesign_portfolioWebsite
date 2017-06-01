@@ -100,6 +100,9 @@ if (isset($_POST['name']))
 			<a href="#aboutMe"><img class="downArrow" src="img/workIcon.png"></a>
 		</div>
 		<div class="aboutMe">
+			<div class="myVideo">
+				<iframe width="420" height="315" src="https://www.youtube.com/watch?v=DGIjTtXOtrY"></iframe>
+			</div>
 			<div class="me">
 				<img class="star" src="img/myPhoto.jpg" width="200px">
 				<h2>David Juarez</h2>
