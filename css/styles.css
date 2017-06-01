@@ -309,10 +309,6 @@ div#columnsWeb small a {
   transition: .4s color;
 }
 
-div#columnsWeb:hover figure:not(:hover) {
-	opacity: 0.6;
-}
-
 /* FADE IN WHEN SCROLLNG EFFECT */
 	.star {
         visibility: hidden;
@@ -350,6 +346,9 @@ div#columnsWeb:hover figure:not(:hover) {
 @media screen and (max-width: 750px) {
   /*#columns { column-gap: 0px; }*/
   #columns figure { width: 100%; }
+  div#columnsWeb:hover figure:not(:hover) {
+  	opacity: 0.6;
+  }
 }
 
 .navbar {
