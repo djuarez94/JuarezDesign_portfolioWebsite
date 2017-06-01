@@ -402,6 +402,7 @@ div.secondNav a:hover {
     color: red;
     background-color: rgba(237, 119, 0, 0.68);
     border-radius: 0px;
+	border: none;
 }
 
 input#submitButton {
