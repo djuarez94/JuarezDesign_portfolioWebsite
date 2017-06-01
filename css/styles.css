@@ -241,10 +241,6 @@ div#columns small a {
   transition: .4s color;
 }
 
-div#columns:hover figure:not(:hover) {
-	opacity: 0.6;
-}
-
 
 
 #columnsWeb {
