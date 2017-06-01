@@ -54,6 +54,31 @@ else {
     });
 }
 
+/*-------------------------------------
+| Image Swap
+-------------------------------------*/
+var sourceSwap = function () {
+    var $this = $(this);
+    var newSource = $this.data('alt-src');
+    $this.data('alt-src', $this.attr('src'));
+    $this.attr('src', newSource);
+}
+
+$(function () {
+    $('img.desktopIcons').hover(sourceSwap, sourceSwap);
+});
+
+var sourceSwapMobile = function () {
+    var $this = $(this);
+    var newSource = $this.data('alt-src');
+    $this.data('alt-src', $this.attr('src'));
+    $this.attr('src', newSource);
+}
+
+$(function () {
+    $('img.mobileIcons').hover(sourceSwapMobile, sourceSwapMobile);
+});
+
 
 
 

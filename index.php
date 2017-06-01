@@ -15,12 +15,12 @@
 			<h2>Where Design </br> and Development meet</h2>
 		</div>
 		<div class="titles">
-			<a href="webDevelopment.php"><img src="img/developmentIcon.png"></a>
-			<a href="visualDesign.php"><img src="img/designIcon.png"></a>
+			<a href="visualDesign.php"><img class="mobileIcons" data-alt-src="img/designIcon_Hovered.png" src="img/designIcon.png"></a>
+			<a href="webDevelopment.php"><img class="mobileIcons" data-alt-src="img/DevelopmentIcon_Hovered.png" src="img/developmentIcon.png"></a>
 		</div>
 		<div class="titlesDesktop">
-			<a href="webDevelopment.php"><img src="img/DevelopmentIcon_Desktop.png"></a>
-			<a href="visualDesign.php"><img src="img/designIcon_Desktop.png"></a>
+			<a href="visualDesign.php"><img class="desktopIcons" data-alt-src="img/designIcon_Desktop_Hover.png" src="img/designIcon_Desktop.png"></a>
+			<a href="webDevelopment.php"><img class="desktopIcons" data-alt-src="img/DevelopmentIcon_Desktop_Hovered.png" src="img/DevelopmentIcon_Desktop.png"></a>
 		</div>
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
