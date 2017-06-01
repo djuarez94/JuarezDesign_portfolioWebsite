@@ -1,13 +1,5 @@
 <?php
 
-// require_once 'cookie_login.php';
-//
-// if ($logged == true) {
-//     echo $userArray['username'] . " is logged in";
-// } else {
-//     echo "User not logged in";
-// }
-
 $feedback =''; //empty until there is feedback.
 
 if (isset($_POST['name']))
@@ -177,13 +169,13 @@ if (isset($_POST['name']))
 			</div>
 		</div>
 		<?php if (!empty($feedback)) : ?>
-			<div class="alert alert-info">
+			<div class="alert alert-info emailAlert" id ="alert">
 				<?php echo $feedback; ?>
 			</div>
 		<?php endif; ?>
 		<div class="contact" id="contactMe">
 			<h1 class="text-center">Contact me</h1>
-			<form method="post" action="visualDesign.php#contactMe" id="contact" class="form-horizontal  text-left">
+			<form method="post" action="visualDesign.php#alert" id="contact" class="form-horizontal  text-left">
 				<div class="form-group text-left">
 					<label for="name">Name:</label>
 					<input name="name" type="name" class="form-control" id="name" placeholder= "Who will I be communicating with?">

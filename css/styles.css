@@ -398,6 +398,12 @@ div.secondNav a:hover {
 	margin-bottom: 1.5em;
 }
 
+.alert-info {
+    color: red;
+    background-color: rgba(237, 119, 0, 0.68);
+    border-radius: 0px;
+}
+
 input#submitButton {
 	background-color: #ed7700;
     border: none;
