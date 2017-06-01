@@ -52,7 +52,7 @@ if (isset($_POST['name']))
 		-------------------------------------*/
 		if (!mail($to, $subject, $body, $headers))
 		{
-			$feedback = 'We were unable to send from our hosted server.';
+			$feedback = 'I apologize! We were unable to send from our hosted server. Please contact me directly <a href="mailto:davidjuarez1411@gmail.com"><p>here</p></a>';
 		}
 		else
 		{
