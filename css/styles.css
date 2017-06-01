@@ -9,7 +9,12 @@
 }
 
 .logoHeader img {
-	padding-top: 1.5%;
+	padding-top: .7%;
+}
+
+.titles {
+	position: relative;
+	bottom: 8%;
 }
 
 .titles img {
@@ -22,6 +27,16 @@
 
 #greeting {
 	margin-top: 10em;
+}
+
+.greeting h2{
+	font-size: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+	.greeting h2{
+		font-size: 60px;
+	}
 }
 
 /*-------------------------------------

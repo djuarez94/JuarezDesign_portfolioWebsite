@@ -10,7 +10,7 @@
 		<div class="logoHeader">
 			<img src="img/juarezDesign_Logo.png">
 		</div>
-		<div class="text-center" id="greeting">
+		<div class="text-center greeting" id="greeting">
 			<h2>Where Design </br> and Development meet!</h2>
 		</div>
 		<div class="titles">
