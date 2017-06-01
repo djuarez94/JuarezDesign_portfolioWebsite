@@ -1,3 +1,74 @@
+<?php
+
+// require_once 'cookie_login.php';
+//
+// if ($logged == true) {
+//     echo $userArray['username'] . " is logged in";
+// } else {
+//     echo "User not logged in";
+// }
+
+$feedback =''; //empty until there is feedback.
+
+if (isset($_POST['name']))
+{
+	/*-------------------------------------
+	| Initialize Variables
+	-------------------------------------*/
+	$to = "davidjuarez1411@gmail.com";
+	$subject = "Portfolio Contact";
+
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$subject = $_POST['subject'];
+	$message = $_POST['message'];
+
+	/*-------------------------------------
+	| Validation
+	-------------------------------------*/
+	if ($name == '' || $email == '' || $subject == '' || $message == '')
+	{
+		$feedback = 'Fill out all the fields';
+	}
+	else
+	{
+		/*-------------------------------------
+		| Compose
+		-------------------------------------*/
+		$body = '
+			Hi! My name is ' . $name . ' and my subject is  ' . $subject . '. <br><br>
+
+			' . $message . '<br>
+
+			Sincerely,<br>
+			' . $name . '<br>
+			P.S. Oh yeah, my email is ' . $email . '.
+		';
+
+		/*-------------------------------------
+		| Make it look like a real eamil
+		-------------------------------------*/
+		$headers = "From: davidjuarez1411@gmail.com" . "\r\n";
+		$headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
+		// $headers .= "CC: susan@example.com\r\n";
+		$headers .= "MIME-Version: 1.0\r\n";
+		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+
+		/*-------------------------------------
+		| Send the email
+		-------------------------------------*/
+		if (!mail($to, $subject, $body, $headers))
+		{
+			$feedback = 'We were unable to send from our hosted server.';
+		}
+		else
+		{
+			$feedback = 'Message Sent from our servers. Let\'s hope it gets through the mail servers!';
+		}
+	}
+}
+?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -107,7 +178,7 @@
 		</div>
 		<div class="contact" id="contactMe">
 			<h1 class="text-center">Contact me</h1>
-			<form method="post" action="?" id="contact" class="form-horizontal  text-left">
+			<form method="post" action="visualDesign.php#contactMe" id="contact" class="form-horizontal  text-left">
 				<div class="form-group text-left">
 					<label for="name">Name:</label>
 					<input name="name" type="name" class="form-control" id="name" placeholder= "Who will I be communicating with?">
@@ -122,7 +193,7 @@
 				</div>
 				<div class="form-group text-left">
 					<label for="message">Message:</label>
-					<textarea rows="4" cols="50" id="message" name="message" style="width:100%" placeholder= "Type message here..." ></textarea>
+					<textarea class="form-control" rows="4" cols="50" id="message" name="message" style="width:100%" placeholder= "Type message here..." ></textarea>
 				</div>
 				<input id="submitButton" type="submit" value="Submit" name="submit">
 			</form>
