@@ -51,10 +51,17 @@
 	font-size: 40px;
 }
 
-/*video {
+iframe {
     max-width: 100%;
-    height: auto;
-}*/
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border: solid #000000 1px;
+}
+
+.myVideo {
+	text-align: center;
+	background-color: #fff;
+}
 
 @media only screen and (min-width: 768px) {
    /*For Desktop*/
@@ -70,6 +77,10 @@
 
 	.titles img{
 		display: none;
+	}
+
+	iframe {
+		border: none;
 	}
 }
 
