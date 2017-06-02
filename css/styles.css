@@ -480,6 +480,10 @@ div.secondNav a:hover {
 	border: none;
 }
 
+.contactQuote strong {
+	color: #ed7700;
+}
+
 input#submitButton {
 	background-color: #ed7700;
     border: none;
@@ -513,9 +517,6 @@ h1 {
 		padding-right: 15%;
 	}
 
-	.contactQuote strong {
-		color: #ed7700;
-	}
 
 	.contact {
 		margin-left: 15%;
