@@ -17,7 +17,7 @@
 		</div>
 		<div class="titles">
 			<a href="visualDesign.php"><img class="mobileIcons" data-alt-src="img/designIcon_Hovered.png" src="img/designIcon.png"></a>
-			<a href="webDevelopment.php"><img class="mobileIcons" data-alt-src="img/DevelopmentIcon_Hovered.png" src="img/developmentIcon.png"></a>
+			<a href="webDevelopment.php"><img class="mobileIcons" data-alt-src="img/developmentIcon_Hovered.png" src="img/developmentIcon.png"></a>
 		</div>
 		<div class="titlesDesktop">
 			<a href="visualDesign.php"><img class="desktopIcons" data-alt-src="img/designIcon_Desktop_Hover.png" src="img/designIcon_Desktop.png"></a>

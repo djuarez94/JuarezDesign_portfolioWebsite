@@ -72,9 +72,9 @@ $(function () {
 
 var sourceSwapMobile = function () {
     var $this = $(this);
-    var newSource = $this.data('alt-src');
+    var newSource2 = $this.data('alt-src');
     $this.data('alt-src', $this.attr('src'));
-    $this.attr('src', newSource);
+    $this.attr('src', newSource2);
 }
 
 $(function () {
