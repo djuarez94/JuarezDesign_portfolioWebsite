@@ -4,6 +4,9 @@ $(document).ready(function() {
 	    | For Mobile Icons
 	    -------------------------------------*/
 	    $('.titles').hide();
+        $('.myVideo').hide();
+        $('footer').hide();
+        $('.videoLink').hide();
 
 	    $('h2').animate({opacity : '1'},"slow",dissappearGreet);
 
@@ -14,23 +17,20 @@ $(document).ready(function() {
 	    function showBoxes () {
 	 	   $('.titles').show();
 	 	   $('h2').hide();
+           $('.myVideo').show();
+           $('footer').show();
+           $('.videoLink').show();
 	    }
 
-	    $("#loginForm2D").submit(function( event ) {
-	 	   var answer = confirm("Are you sure you want to delete the user?");
-
-	 	   if (answer == true) {
-	 		   return;
-	 	   }
-
-	 	   event.preventDefault();
-	    });
 }
 else {
 	/*-------------------------------------
     | For Desktop Icons
     -------------------------------------*/
     $('.titlesDesktop').hide();
+    $('.myVideo').hide();
+    $('footer').hide();
+    $('.videoLink').hide();
 
     $('h2').animate({opacity : '1'},"slow",dissappearGreet);
 
@@ -41,6 +41,8 @@ else {
     function showBoxes () {
  	   $('.titlesDesktop').show();
  	   $('h2').hide();
+       $('.myVideo').show();
+       $('footer').show();
     }
 
     $("#loginForm2D").submit(function( event ) {

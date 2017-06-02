@@ -109,9 +109,6 @@ if (isset($_POST['name']))
 				<p>Welcome! I am David, and I am finishing up my senior year at Mt. Sierra College where I am persuing my Bachelor's Degree in Graphic Design. What made me go down the road of a Graphic Designer was my love for drawing and creating something for someone. I began drawing from a young age and this eventually evolved into becoming a hobby that I love to do. Now I want to use my passion for drawing and design in order to communicate with others visually through my work.</p>
 			</div>
 		</div>
-		<div class="myVideo">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/DGIjTtXOtrY" frameborder="0" allowfullscreen></iframe>
-		</div>
 		<div class="work">
 			<h1 id="myWork" class="text-center">My Work</h1>
 			<div id="columns">
