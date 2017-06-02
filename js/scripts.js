@@ -81,6 +81,16 @@ $(function () {
     $('img.mobileIcons').hover(sourceSwapMobile, sourceSwapMobile);
 });
 
+/*-------------------------------------
+| Smooth Scroll
+-------------------------------------*/
+	function scrollMe () {
+	$('html,body').animate({
+        scrollTop: $("#myVideo").offset().top},
+        'slow');
+}
+
+$(".videoLink a").click(scrollMe);
 
 
 

@@ -10,10 +10,10 @@
 	</head>
 	<body>
 		<div class="logoHeader">
-			<img src="img/juarezDesign_Logo.png">
+			<a href="index.php"><img src="img/juarezDesign_Logo.png"></a>
 		</div>
 		<div class="text-center greeting" id="greeting">
-			<h2>Where Design </br> and Development meet</h2>
+			<h2>Where Design </br> and Development meet!</h2>
 		</div>
 		<div class="titles">
 			<a href="visualDesign.php"><img class="mobileIcons" data-alt-src="img/designIcon_Hovered.png" src="img/designIcon.png"></a>
