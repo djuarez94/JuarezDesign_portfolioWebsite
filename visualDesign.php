@@ -115,50 +115,204 @@ if (isset($_POST['name']))
 				<figure class="star">
 					<img style="width: 235px" src="img/DES230_DavidJuare_Wk7_StillLife_new.jpg">
 					<h3>Digital Painting</h3>
-					<figcaption>Created in Photoshop with softbrush.</figcaption>
+					<button type="button" class="modalButton btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">View</button>
 				</figure>
+				 <!-- Modal -->
+				 <div class="modal fade" id="myModal" role="dialog">
+				   <div class="modal-dialog">
+
+					 <!-- Modal content-->
+					 <div class="modal-content">
+					   <div class="modal-header">
+						 <button type="button" class="close" data-dismiss="modal">&times;</button>
+						 <img src="img/DES230_DavidJuare_Wk7_StillLife_new.jpg">
+						 <h3 style ="text-align: center;">Digital Painting</h3>
+					   </div>
+					   <div class="modal-body">
+						 <p>Created in Photoshop with softbrush.</p>
+					   </div>
+					   <div class="modal-footer">
+						 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					   </div>
+					 </div>
+
+				   </div>
+				 </div>
 
 				<figure class="star">
 					<img style="width: 235px" src="img/DES231_DJuarez_ExeSkullPainting_Wk04_R1_new.jpg">
 					<h3>Digital Painting</h3>
-					<figcaption>Created in Photoshop with softbrush.<figcaption>
+						<button type="button" class="modalButton btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">View</button>
 				</figure>
+				<div class="modal fade" id="myModal2" role="dialog">
+				  <div class="modal-dialog">
+
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<img src="img/DES231_DJuarez_ExeSkullPainting_Wk04_R1_new.jpg">
+						<h3 style ="text-align: center;">Digital Painting</h3>
+					  </div>
+					  <div class="modal-body">
+						<p>Created in Photoshop with softbrush.</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
 
 				<figure class="star">
 					<img style="width: 235px" src="img/DES231_DJuarez_PortaitPainting_small.png">
 					<h3>Digital Painting</h3>
-					<figcaption>Created in Photoshop with softbrush.</figcaption>
+					<button type="button" class="modalButton btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">View</button>
 				</figure>
+				<div class="modal fade" id="myModal3" role="dialog">
+				  <div class="modal-dialog">
+
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<img src="img/DES231_DJuarez_PortaitPainting_small.png">
+						<h3 style ="text-align: center;">Digital Painting</h3>
+					  </div>
+					  <div class="modal-body">
+						<p>Created in Photoshop with softbrush.</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
 
 				<figure class="star">
 					<img style="width: 235px" src="img/DES231_DJuarez_Movie Poster_new.jpg">
 					<h3>Poster Design</h3>
-					<figcaption>Created in Photoshop.</figcaption>
+					<button type="button" class="modalButton btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">View</button>
 				</figure>
+				<div class="modal fade" id="myModal4" role="dialog">
+				  <div class="modal-dialog">
+
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<img src="img/DES231_DJuarez_Movie Poster_new.jpg">
+						<h3 style ="text-align: center;">Poster Design</h3>
+					  </div>
+					  <div class="modal-body">
+						<p>Created in Photoshop.</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
 
 				<figure class="star">
 					<img style="width: 235px" src="img/robotBody copy_new.png">
 					<h3>Vector Illustration</h3>
-					<figcaption>Created in Illustrator.</figcaption>
+					<button type="button" class="modalButton btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">View</button>
 				</figure>
+				<div class="modal fade" id="myModal5" role="dialog">
+				  <div class="modal-dialog">
+
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<img src="img/robotBody copy_new.png">
+						<h3 style ="text-align: center;">Vector Illustration</h3>
+					  </div>
+					  <div class="modal-body">
+						<p>Created in Illustrator.</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
 
 				<figure class="star">
 					<img style="width: 235px" src="img/robotHead_new.png">
 					<h3>Vector Illustration</h3>
-					<figcaption>Created in Illustrator.</figcaption>
+					<button type="button" class="modalButton btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6">View</button>
 				</figure>
+				<div class="modal fade" id="myModal6" role="dialog">
+				  <div class="modal-dialog">
+
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<img style="width: 235px" src="img/robotHead_new.png">
+						<h3 style ="text-align: center;">Vector Illustration</h3>
+					  </div>
+					  <div class="modal-body">
+						<p>Created in Illustrator.</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
 
 				<figure class="star">
 					<img style="width: 235px" src="img/cookCheck_Logo.png">
 					<h3>Logo Design</h3>
-					<figcaption>Created in Illustrator.</figcaption>
+					<button type="button" class="modalButton btn btn-info btn-lg" data-toggle="modal" data-target="#myModal7">View</button>
 				</figure>
+				<div class="modal fade" id="myModal7" role="dialog">
+				  <div class="modal-dialog">
+
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<img style="width: 235px" src="img/cookCheck_Logo.png">
+						<h3 style ="text-align: center;">Vector Illustration</h3>
+					  </div>
+					  <div class="modal-body">
+						<p>Created in Illustrator.</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
 
 				<figure class="star">
 					<img style="width: 235px" src="img/natureGoSip_Logo.png">
 					<h3>Logo Design</h3>
-					<figcaption>Created in Illustrator.</figcaption>
+					<button type="button" class="modalButton btn btn-info btn-lg" data-toggle="modal" data-target="#myModal8">View</button>
 				</figure>
+				<div class="modal fade" id="myModal8" role="dialog">
+				  <div class="modal-dialog">
+
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<img style="width: 235px" src="img/natureGoSip_Logo.png">
+						<h3 style ="text-align: center;">Vector Illustration</h3>
+					  </div>
+					  <div class="modal-body">
+						<p>Created in Illustrator.</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
 			</div>
 		</div>
 		<div class="parallaxContact">
