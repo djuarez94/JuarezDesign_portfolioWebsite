@@ -78,7 +78,7 @@ $('.fa-arrow-circle-up').fadeOut(duration);
 -------------------------------------*/
 
 	function showDownArrow () {
-		$('.downArrow').animate({opacity: '0'},1000);
+		$('.downArrow').animate({opacity: '0'},500);
 	}
 	showDownArrow(arrowAnimate);
 

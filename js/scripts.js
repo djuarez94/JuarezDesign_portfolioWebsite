@@ -1,9 +1,16 @@
 $(document).ready(function() {
-	if ($(window).width() < 960) {
+    // $('.titles').hide();
+    // $('.titlesDesktop').hide();
+    // $('.myVideo').hide();
+    // $('footer').hide();
+    // $('.videoLink').hide();
+
+	if ($(window).width() < 768) {
 		/*-------------------------------------
 	    | For Mobile Icons
 	    -------------------------------------*/
 	    $('.titles').hide();
+	    $('.titlesDesktop').hide();
         $('.myVideo').hide();
         $('footer').hide();
         $('.videoLink').hide();
@@ -11,11 +18,11 @@ $(document).ready(function() {
 	    $('h2').animate({opacity : '1'},"slow",dissappearGreet);
 
 	    function dissappearGreet () {
-	 	   $('h2').delay(1700).animate({opacity : '0'},"slow",showBoxes);
+	 	   $('h2').delay(200).animate({opacity : '0'},"slow",showBoxes);
 	    }
 
 	    function showBoxes () {
-	 	   $('.titles').show();
+	 	   $('.titles').show()
 	 	   $('h2').hide();
            $('.myVideo').show();
            $('footer').show();
@@ -27,6 +34,7 @@ else {
 	/*-------------------------------------
     | For Desktop Icons
     -------------------------------------*/
+    $('.titles').hide();
     $('.titlesDesktop').hide();
     $('.myVideo').hide();
     $('footer').hide();
@@ -44,16 +52,6 @@ else {
        $('.myVideo').show();
        $('footer').show();
     }
-
-    $("#loginForm2D").submit(function( event ) {
- 	   var answer = confirm("Are you sure you want to delete the user?");
-
- 	   if (answer == true) {
- 		   return;
- 	   }
-
- 	   event.preventDefault();
-    });
 }
 
 /*-------------------------------------
