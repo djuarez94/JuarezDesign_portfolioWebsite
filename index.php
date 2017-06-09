@@ -27,7 +27,7 @@
 			<p style="text-align: center;"><a href="#myVideo">View Demo Reel</a></p>
 		</div>
 		<div class="myVideo" id="myVideo">
-			<iframe width="100%" height="615" src="https://www.youtube.com/embed/DGIjTtXOtrY" frameborder="0" allowfullscreen></iframe>
+			<iframe width="100%" height="615" src="https://www.youtube.com/embed/P89TpXtMUvw" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<?php include 'footer.php' ?>
 	</body>
