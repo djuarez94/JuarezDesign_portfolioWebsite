@@ -469,15 +469,9 @@ div#columnsWeb small a {
      /*background-attachment: fixed;*/
      background-position: center center;
      background-repeat: no-repeat;
-     background-size: contain;
+     background-size: cover;
      z-index: 1;
      text-align: center;
-  }
-
-  div.secondNav {
-  	display: flex;
-	height: 68px;
-	line-height: 3.7em;
   }
 
 }
