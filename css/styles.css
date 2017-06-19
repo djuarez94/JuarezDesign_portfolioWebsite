@@ -488,7 +488,7 @@ div#columnsWeb small a {
   0%   {background: red;}
   25%  {background: yellow;}
   50%  {background: white;}
-  75%  {background: black;}
+  75%  {background: #edc68d;}
   100% {background: red;}
 }
 
@@ -497,7 +497,7 @@ div#columnsWeb small a {
 	0%   {background: red;}
     25%  {background: yellow;}
     50%  {background: white;}
-    75%  {background: black;}
+    75%  {background: #edc68d;}
     100% {background: red;}
 }
 
@@ -527,7 +527,7 @@ div#columnsWeb small a {
   0%   {background: red;}
   25%  {background: yellow;}
   50%  {background: white;}
-  75%  {background: black;}
+  75%  {background: #edc68d;}
   100% {background: red;}
 }
 
@@ -536,7 +536,7 @@ div#columnsWeb small a {
 	0%   {background: red;}
     25%  {background: yellow;}
     50%  {background: white;}
-    75%  {background: black;}
+    75%  {background: #edc68d;}
     100% {background: red;}
 }
 }
