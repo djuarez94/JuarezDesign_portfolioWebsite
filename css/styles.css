@@ -134,16 +134,15 @@ html, body{
 .parallaxContact {
    /* The image used */
    background-image: url("../img/BG_1.jpg");
-   opacity: 1;
+   opacity: .9;
 
    height: 100%;
-   width: 100%;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
-   background-size: contain;
+   background-size: cover;
    text-align: center;
    z-index: 1;
 }
@@ -447,21 +446,7 @@ div#columnsWeb small a {
   	opacity: 0.6;
   }
 
-  .parallaxDesign {
-     /* The image used */
-     background-image: url("../img/bg_image1.jpg");
-     opacity: 1;
 
-	 height: 100%;
-
-     /* Create the parallax scrolling effect */
-     background-attachment: fixed;
-     background-position: center center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     z-index: 1;
-     text-align: center;
-  }
 
   .parallaxDesign h1 {
 		font-size: 3.5em;
@@ -475,18 +460,33 @@ div#columnsWeb small a {
 @media screen and (max-width: 780px) {
   .parallaxDesign {
      /* The image used */
-     background-image: url("../img/bg_image1.jpg");
+     background-image: url("../img/bg_image1_mobile.jpg");
      opacity: 1;
 
-	 height: 100%;
+	 height: 440px;
 
      /* Create the parallax scrolling effect */
-     background-attachment: fixed;
+     /*background-attachment: fixed;*/
      background-position: center center;
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size: contain;
      z-index: 1;
      text-align: center;
+  }
+
+  .parallaxDesign h1 {
+  	text-align: center;
+  	padding-top: 3em;
+  	border-bottom: none;
+  	text-shadow: 2px 2px 5px #000;
+  	margin-top: 0;
+  	font-size: 3.5em;
+  }
+
+  div.secondNav {
+  	display: flex;
+	height: 68px;
+	line-height: 3.7em;
   }
 
 }
