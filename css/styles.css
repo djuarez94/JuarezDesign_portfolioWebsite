@@ -119,7 +119,7 @@ html, body{
    background-image: url("../img/bg_image1.jpg");
    opacity: 1;
 
-   /*height: 100%;*/
+   height: 100%;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
@@ -445,17 +445,31 @@ div#columnsWeb small a {
   	opacity: 0.6;
   }
 
+  .parallaxDesign {
+     /* The image used */
+     background-image: url("../img/bg_image1.jpg");
+     opacity: 1;
 
+	 height: 100%;
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     z-index: 1;
+     text-align: center;
+  }
 
 }
 
 @media screen and (max-width: 780px) {
   .parallaxDesign {
      /* The image used */
-     background-image: url("../img/bg_image1_780px.jpg");
+     background-image: url("../img/bg_image1.jpg");
      opacity: 1;
 
-	 width: 100%;
+	 height: 100%;
 
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
