@@ -469,7 +469,7 @@ div#columnsWeb small a {
      background-image: url("../img/bg_image1.jpg");
      opacity: 1;
 
-	 width: 100%;
+	 /*width: 50%;*/
 
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
