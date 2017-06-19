@@ -152,6 +152,8 @@ html, body{
 	position: relative;
 	bottom: 2em;
 	margin-top: 2em;
+	background-color: #ed7700;
+	border-radius: 100px;
 }
 
 .parallaxDesign h1 {
@@ -460,7 +462,7 @@ div#columnsWeb small a {
 @media screen and (max-width: 780px) {
   .parallaxDesign {
      /* The image used */
-     background-image: url("../img/bg_image1_mobile.jpg");
+     background-image: none;
      opacity: 1;
 
 	 height: 100%;
