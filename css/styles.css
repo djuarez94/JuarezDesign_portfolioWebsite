@@ -120,11 +120,10 @@ html, body{
    opacity: 1;
 
    height: 100%;
-   width: 100%;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
-   background-position: center;
+   background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
    z-index: 1;
@@ -444,6 +443,41 @@ div#columnsWeb small a {
   #columns figure { width: 100%; }
   div#columnsWeb:hover figure:not(:hover) {
   	opacity: 0.6;
+  }
+
+  .parallaxDesign {
+     /* The image used */
+     background-image: url("../img/bg_image1.jpg");
+     opacity: 1;
+
+	 height: 50%;
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     z-index: 1;
+     text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 780px) {  
+  .parallaxDesign {
+     /* The image used */
+     background-image: url("../img/bg_image1.jpg");
+     opacity: 1;
+
+	 height: 50%;
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     z-index: 1;
+     text-align: center;
   }
 
 }
