@@ -133,19 +133,16 @@ html, body{
 .parallaxContact {
    /* The image used */
    background-image: url("../img/BG_1.jpg");
-   /*background-image: url("../img/servicesPage_BGimg.jpg");*/
-   opacity: .9;
+   opacity: 1;
 
-   /* Full height */
-   /*height: 61.5%; */
    height: 100%;
-   width: 100%;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   text-align: center;
    z-index: 1;
 }
 
@@ -448,31 +445,17 @@ div#columnsWeb small a {
   	opacity: 0.6;
   }
 
-  .parallaxDesign {
-     /* The image used */
-     background-image: url("../img/bg_image1.jpg");
-     opacity: 1;
 
-	 /*height: 50%;*/
-
-     /* Create the parallax scrolling effect */
-     background-attachment: fixed;
-     background-position: center center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     z-index: 1;
-     text-align: center;
-  }
 
 }
 
 @media screen and (max-width: 780px) {
   .parallaxDesign {
      /* The image used */
-     background-image: url("../img/bg_image1.jpg");
+     background-image: url("../img/bg_image1_780px.jpg");
      opacity: 1;
 
-	 /*width: 50%;*/
+	 width: 100%;
 
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
