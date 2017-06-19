@@ -107,7 +107,7 @@ if (isset($_POST['name']))
 				<h3>Visual Designer</h3>
 			</div>
 			<div class="para">
-				<p>Welcome! I am David, and I am finishing up my senior year at Mt. Sierra College where I am persuing my Bachelor's Degree in Graphic Design. What made me go down the road of a Graphic Designer was my love for drawing and creating something for someone. I began drawing from a young age and this eventually evolved into becoming a hobby that I love to do. Now I want to use my passion for drawing and design in order to communicate with others visually through my work.</p>
+				<p>Welcome! I am David, and I am a graduate from Mt. Sierra College where I persued my Bachelor's Degree in Graphic Design. What made me go down the road of a Graphic Designer was my love for drawing and creating something for someone. I began drawing from a young age and this eventually evolved into becoming a hobby that I love to do. Now I want to use my passion for drawing and design in order to communicate with others visually through my work.</p>
 			</div>
 		</div>
 		<div class="work">
@@ -280,6 +280,7 @@ if (isset($_POST['name']))
 						<h3 style ="text-align: center;">Vector Illustration</h3>
 					  </div>
 					  <div class="modal-body">
+						  <h4>Cook Check</h4><br>
 						<p>Created in Illustrator.</p>
 					  </div>
 					  <div class="modal-footer">
@@ -305,6 +306,7 @@ if (isset($_POST['name']))
 						<h3 style ="text-align: center;">Vector Illustration</h3>
 					  </div>
 					  <div class="modal-body">
+						  <h4>Nature's GoSip</h4><br>
 						<p>Created in Illustrator.</p>
 					  </div>
 					  <div class="modal-footer">

@@ -99,11 +99,12 @@ html, body{
 
 .parallaxWeb {
    /* The image used */
-   background-image: url("../img/webDev_BG_Mobile.png");
-   opacity: 1;
+   background-image: url("../img/webDev_BG.png");
+   opacity: .9;
 
+   /* Full height */
+   /*height: 61.5%; */
    height: 100%;
-   width: 100%;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
@@ -159,7 +160,7 @@ html, body{
 	border-bottom: none;
 	text-shadow: 2px 2px 5px #000;
 	margin-top: 0;
-	font-size: 3.5em;
+	font-size: 4.5em;
 }
 
 .parallaxDesign .contactQuote h2 {
@@ -187,7 +188,7 @@ html, body{
 	border-bottom: none;
 	text-shadow: 2px 2px 5px #000;
 	margin-top: 0;
-	font-size: 3.5em;
+	font-size: 4.5em;
 }
 
 .parallaxWeb img {
@@ -459,6 +460,13 @@ div#columnsWeb small a {
      background-size: cover;
      z-index: 1;
      text-align: center;
+  }
+
+  .parallaxDesign h1 {
+		font-size: 3.5em;
+  }
+  .parallaxWeb h1 {
+		font-size: 3.5em;
   }
 
 }

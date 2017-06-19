@@ -141,7 +141,7 @@ if (isset($_POST['name']))
 					<img src="img/cookCheck.png">
 					<h3>Cook Check Mobile App</h3>
 					<figcaption>Languages used: HTML, CSS, Javascript, jQuery, Bootstrap, PHP <span class="danger">Still under development.</span></figcaption>
-					<a href="#" target="_blank"><p class="siteButtons">View Project</p></a>
+					<!-- <a href="#" target="_blank"><p class="siteButtons">View Project</p></a> -->
 				</figure>
 			</div>
 		</div>
