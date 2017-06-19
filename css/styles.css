@@ -118,25 +118,14 @@ html, body{
    /* The image used */
    background-image: url("../img/bg_image1.jpg");
    opacity: 1;
-      /* Background image is centered vertically and horizontally at all times */
-    background-position: center center;
 
-    /* Background image doesn't tile */
-    background-repeat: no-repeat;
+   /*height: 100%;*/
 
-    /* Background image is fixed in the viewport so that it doesn't move when
-   	the content's height is greater than the image's height */
-    background-attachment: fixed;
-
-    /* This is what makes the background image rescale based
-   	on the container's size */
-    background-size: cover;
-
-    /* Set a background color that will be displayed
-   	while the background image is loading */
-    background-color: #464646;
-      text-align: center;
-   }
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
    z-index: 1;
    text-align: center;
 }
@@ -144,8 +133,11 @@ html, body{
 .parallaxContact {
    /* The image used */
    background-image: url("../img/BG_1.jpg");
-   opacity: 1;
+   /*background-image: url("../img/servicesPage_BGimg.jpg");*/
+   opacity: .9;
 
+   /* Full height */
+   /*height: 61.5%; */
    height: 100%;
 
    /* Create the parallax scrolling effect */
@@ -153,7 +145,6 @@ html, body{
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   text-align: center;
    z-index: 1;
 }
 
@@ -461,7 +452,7 @@ div#columnsWeb small a {
      background-image: url("../img/bg_image1.jpg");
      opacity: 1;
 
-	 height: 50%;
+	 /*height: 50%;*/
 
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
