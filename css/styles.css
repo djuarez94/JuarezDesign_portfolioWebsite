@@ -133,7 +133,7 @@ html, body{
 
 .parallaxContact {
    /* The image used */
-   background-image: url("../img/BG_1.jpg");
+   /*background-color: red;*/
    opacity: .9;
 
    height: 100%;
@@ -145,7 +145,8 @@ html, body{
    background-size: cover;
    text-align: center;
    z-index: 1;
-}
+  }
+
 
 .downArrow {
 	opacity: 0;
@@ -155,6 +156,7 @@ html, body{
 	background-color: #ed7700;
 	border-radius: 100px;
 }
+
 
 .parallaxDesign h1 {
 	text-align: center;
@@ -474,9 +476,32 @@ div#columnsWeb small a {
      background-size: cover;
      z-index: 1;
      text-align: center;
+  animation: colorchange 20s; /* animation-name followed by duration in seconds*/
+	 /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 20s; /* Chrome and Safari */
+  animation-iteration-count:infinite;
+}
+
+@keyframes colorchange
+{
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: white;}
+  75%  {background: black;}
+  100% {background: red;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+	0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: white;}
+    75%  {background: black;}
+    100% {background: red;}
+}
   }
 
-}
+
 
 .navbar {
 	margin-bottom: 0px;

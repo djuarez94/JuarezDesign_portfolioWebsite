@@ -21,7 +21,8 @@ function scrollContact () {
 }
 
 $("#about").click(scrollMe);
-$(".downArrow").click(scrollMe);
+$("#downArrow").click(scrollMe);
+$("#downArrow2").click(scrollContact);
 $("#work").click(scrollWork);
 $("#contact").click(scrollContact);
 

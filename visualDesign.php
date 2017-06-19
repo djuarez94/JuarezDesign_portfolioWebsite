@@ -98,7 +98,7 @@ if (isset($_POST['name']))
 		</div>
 		<div class="parallaxDesign">
 			<h1 class="star">Visual Design</h1>
-			<a href="#aboutMe"><img class="downArrow" src="img/workIcon.png"></a>
+			<a href="#aboutMe"><img class="downArrow" id="downArrow" src="img/workIcon.png"></a>
 		</div>
 		<div class="aboutMe">
 			<div class="me">
@@ -322,7 +322,7 @@ if (isset($_POST['name']))
 			<div class="contactQuote">
 				<h2 class="star">"Any kind of innovation requires the ability to <strong>collaborate</strong> and <strong>share</strong> ideas with other people, and to sit down and <strong>talk</strong> with customers and get their feedback and <strong>understand</strong> their needs"</h2>
 				<p class="star"><i>- Bill Gates</i></p>
-
+				<a href="#contactMe"><img class="downArrow" id ="downArrow2" src="img/workIcon.png"></a>
 			</div>
 		</div>
 		<?php if (!empty($feedback)) : ?>
