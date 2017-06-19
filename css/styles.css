@@ -137,12 +137,13 @@ html, body{
    opacity: 1;
 
    height: 100%;
+   width: 100%;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: contain;
    text-align: center;
    z-index: 1;
 }
