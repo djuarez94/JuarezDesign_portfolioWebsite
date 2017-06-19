@@ -463,13 +463,13 @@ div#columnsWeb small a {
 
 }
 
-@media screen and (max-width: 780px) {  
+@media screen and (max-width: 780px) {
   .parallaxDesign {
      /* The image used */
      background-image: url("../img/bg_image1.jpg");
      opacity: 1;
 
-	 height: 50%;
+	 width: 100%;
 
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
