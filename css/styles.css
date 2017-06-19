@@ -133,7 +133,7 @@ html, body{
 
 .parallaxContact {
    /* The image used */
-   background-color: #edd694;
+   background-color: #edc68d;
    opacity: .9;
 
    height: 100%;
@@ -539,7 +539,7 @@ div#columnsWeb small a {
     75%  {background: black;}
     100% {background: red;}
 }
-
+}
 
 
 
