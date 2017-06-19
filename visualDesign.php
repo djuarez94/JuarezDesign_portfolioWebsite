@@ -86,6 +86,7 @@ if (isset($_POST['name']))
 					<ul class="nav navbar-nav">
 					   <li class="active"><a href="visualDesign.php">Visual Design</a></li>
 					   <li><a href="webDevelopment.php">Web Development</a></li>
+					   <li class=""><a href="img/Stylesheets_dJuarez_SP17.compressed.pdf">Stylesheets</a></li>
 					</ul>
 				</div>
 			</div>

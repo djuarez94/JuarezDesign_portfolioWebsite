@@ -452,7 +452,7 @@ div#columnsWeb small a {
 }
 
 a.navbar-brand {
-	padding: 5px 5px 15px 15px;
+	padding: 5px 5px 15px 35px;
 	height: 60px;
 }
 
@@ -482,6 +482,10 @@ div.secondNav a:hover {
 	color: #fff;
 }
 /*Contact Form CSS*/
+strong {
+	color: #ed7700;
+}
+
 .contact {
 	margin-left: 4em;
 	margin-right: 4em;
