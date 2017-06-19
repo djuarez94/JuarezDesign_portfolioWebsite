@@ -463,7 +463,7 @@ div#columnsWeb small a {
      background-image: url("../img/bg_image1_mobile.jpg");
      opacity: 1;
 
-	 height: 440px;
+	 height: 100%;
 
      /* Create the parallax scrolling effect */
      /*background-attachment: fixed;*/
@@ -472,15 +472,6 @@ div#columnsWeb small a {
      background-size: contain;
      z-index: 1;
      text-align: center;
-  }
-
-  .parallaxDesign h1 {
-  	text-align: center;
-  	padding-top: 3em;
-  	border-bottom: none;
-  	text-shadow: 2px 2px 5px #000;
-  	margin-top: 0;
-  	font-size: 3.5em;
   }
 
   div.secondNav {
